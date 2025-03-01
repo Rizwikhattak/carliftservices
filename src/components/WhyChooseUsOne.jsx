@@ -8,7 +8,7 @@ const pickupLocations = [
   {
     location: "Al Buteen",
     tag: "Sharjah",
-    locationImg: "assets/img/normal/Sharjah/ALButeenCity.jpg",
+    locationImg: "assets/img/normal/Sharjah/AlButeenCity.jpg",
   },
   {
     location: "AL Khan",
@@ -18,7 +18,7 @@ const pickupLocations = [
   {
     location: "AL Nahda",
     tag: "Sharjah",
-    locationImg: "assets/img/normal/Sharjah/ALNahdaCity.webp",
+    locationImg: "assets/img/normal/Sharjah/AlNahdaCity.webp",
   },
   {
     location: "AL Taawun",
@@ -28,7 +28,7 @@ const pickupLocations = [
   {
     location: "AL Wahda",
     tag: "Sharjah",
-    locationImg: "assets/img/normal/Sharjah/ALWahdaCity.jpeg",
+    locationImg: "assets/img/normal/Sharjah/AlWahdaCity.jpeg",
   },
   {
     location: "AL Taawun",
@@ -102,7 +102,6 @@ const dropOffLocations = [
 const WhyChooseUsOne = () => {
   return (
     <div className="wcu-area-1 space-bottom">
-      s
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-5 col-lg-6">

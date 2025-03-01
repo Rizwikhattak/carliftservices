@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HeroTwo = () => {
   return (
     <div
-      className="hero-wrapper hero-2"
+      className="hero-wrapper "
       id="hero"
       style={{ backgroundImage: "url(assets/img/hero/hero_bg_2_1.webp)" }}
     >

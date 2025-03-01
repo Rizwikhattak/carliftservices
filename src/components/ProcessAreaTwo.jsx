@@ -16,7 +16,7 @@ const ProcessAreaTwo = () => {
         <span className="hero-shape2-2" />
       </div>
 
-      <div className="container position-relative">
+      <div className="container position-relative work-process-container">
         <div className="row justify-content-center">
           <div className="col-xl-5 col-lg-7">
             <div className="title-area text-center">

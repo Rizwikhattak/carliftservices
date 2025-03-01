@@ -2,9 +2,8 @@ import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 const CounterTwo = () => {
-
   return (
-    <div className="container">
+    <div className="container counter-container">
       <div className="counter-area-2 bg-theme">
         <div className="row gy-40 justify-content-between">
           <div className="col-sm-6 col-lg-auto">
