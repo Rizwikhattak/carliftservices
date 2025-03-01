@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ProcessAreaTwo = () => {
-
   return (
     <div
       className="process-area-2 hero-wrapper hero-2 space-top bg-image position-relative"
@@ -35,7 +34,7 @@ const ProcessAreaTwo = () => {
         </div>
         <div className="row gy-4 gx-90 justify-content-center">
           <div className="col-lg-4 col-md-6 process-card-wrap2">
-            <div className="process-card style2">
+            <div className="process-card style2" style={{ height: "18rem" }}>
               <div className="process-card-number">STEP 1</div>
               <h4 className="process-card-title">Choose Your Route & Time</h4>
               <p className="process-card-text">
@@ -47,8 +46,8 @@ const ProcessAreaTwo = () => {
               </Link> */}
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 process-card-wrap2">
-            <div className="process-card style2">
+          <div className="col-lg-4 col-md-6 process-card-wrap2 ">
+            <div className="process-card style2" style={{ height: "18rem" }}>
               <div className="process-card-number">STEP 2</div>
               <h4 className="process-card-title">Confirm Your Booking</h4>
               <p className="process-card-text">
@@ -61,7 +60,7 @@ const ProcessAreaTwo = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 process-card-wrap2">
-            <div className="process-card style2">
+            <div className="process-card style2" style={{ height: "18rem" }}>
               <div className="process-card-number">STEP 3</div>
               <h4 className="process-card-title">Enjoy a Comfortable Ride </h4>
               <p className="process-card-text">
@@ -73,11 +72,6 @@ const ProcessAreaTwo = () => {
               </Link> */}
             </div>
           </div>
-        </div>
-        <div className=" d-flex justify-content-center">
-          <Link to="/about" className="btn">
-            Book Now
-          </Link>
         </div>
       </div>
     </div>

@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const HeroTwo = () => {
-
   return (
     <div
       className="hero-wrapper hero-2"
@@ -13,39 +12,46 @@ const HeroTwo = () => {
         <span className="hero-shape2-2" />
       </div>
       <div className="container">
-        <div className="row">
+        <div className="row d-flex justify-content-center align-items-center">
           <div className="col-xxl-6 col-xl-5 col-lg-8">
-            <div className="hero-style2">
+            <div className="hero-style2 title-area text-center">
               <span className="sub-title text-white">
                 RELIABLE TRANSPORT SERVICE
               </span>
-              <h1 className="hero-title text-white">
-                Seamless
+              <h1 className="hero-title text-white text-center">
+                Carlift
                 <span>
                   {" "}
                   <img src="assets/img/hero/hero_shape_2.png" alt="Fixturbo" />
-                  Rides
+                  Service
                 </span>{" "}
                 from Sharjah to Dubai
               </h1>
-              <p className="hero-text text-white">
-                Travel in comfort and style with our affordable and reliable
-                transport service. Whether commuting for work or leisure, we
-                ensure a hassle-free and safe journey every time.
-              </p>
-              <div className="btn-group">
-                <Link to="/about" className="btn">
-                  Learn More
-                </Link>
-                <div className="call-media-wrap">
+
+              <div className="btn-group d-flex justify-content-center align-items-center">
+                <div className="call-media-wrap d-flex justify-content-center align-items-center">
                   <div className="icon">
                     <img src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
                   </div>
                   <div className="media-body">
-                    <h6 className="title text-white">Book Your Ride Now:</h6>
                     <h4 className="link">
-                      <Link className="text-white" to="tel:+971589902713">
+                      <Link
+                        className="text-white"
+                        to="https://wa.me/971589902713"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         +971 58 990 2713
+                      </Link>
+                    </h4>
+                    <h4 className="link">
+                      <Link
+                        className="text-white"
+                        to="https://wa.me/971586185990"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        +971 58 618 5990
                       </Link>
                     </h4>
                   </div>
