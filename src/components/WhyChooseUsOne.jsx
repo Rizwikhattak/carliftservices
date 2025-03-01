@@ -83,11 +83,6 @@ const dropOffLocations = [
     locationImg: "assets/img/normal/Dubai/Tecom.png",
   },
   {
-    location: "Jumeirah Lake Towers",
-    tag: "Dubai",
-    locationImg: "assets/img/normal/Dubai/JumeirahLakeTower.png",
-  },
-  {
     location: "Any Metro Station",
     tag: "Dubai",
     locationImg: "assets/img/normal/Dubai/AnyMetroStation.png",

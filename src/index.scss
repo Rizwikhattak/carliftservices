@@ -35,7 +35,7 @@
   .hero-wrapper {
     min-height: 30vh !important; /* Reduce height on tablets */
     background-size: cover !important; /* Show full image without cropping */
-    padding: 0px !important;
+    padding: 10px !important;
   }
   .hero-2 {
     min-height: 100% !important; /* Reduce height on tablets */
@@ -56,6 +56,6 @@
 @media (max-width: 480px) {
   .hero-wrapper {
     min-height: 20vh !important; /* Smaller height for mobile screens */
-    // padding: 30px 15px !important; /* Adjust padding */
+    padding: 30px 15px !important; /* Adjust padding */
   }
 }
