@@ -2,9 +2,8 @@ import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 const AboutTwo = () => {
-
   return (
-    <div className="space-top">
+    <div className="space-top" id="about-us-page">
       <div className="container">
         <div className="row">
           <div className="col-xxl-7 col-xl-6">

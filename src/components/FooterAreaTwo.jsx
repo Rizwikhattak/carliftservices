@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const FooterAreaTwo = () => {
-
   return (
     <footer
       className="footer-wrapper footer-layout2"
@@ -10,18 +9,26 @@ const FooterAreaTwo = () => {
     >
       <div className="container">
         <div className="footer-top-2">
-          <div className="footer-logo">
+          <div className="footer-logo d-flex align-items-center justify-content-center gap-2">
             <Link to="/">
-              <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+              <img
+                src="assets/img/logo.png"
+                alt="Fixturbo"
+                className="img-fluid"
+                style={{ maxWidth: "5rem" }}
+              />
             </Link>
+            <h1 className="text-white" style={{ fontSize: "1.5rem" }}>
+              Raja Car Lift Services
+            </h1>
           </div>
           <h3 className="footer-top-title text-white">
             Contact Us via WhatsApp, phone call, or email to confirm your seat.
           </h3>
 
-          <button className="btn style2">
+          <a href="#contact-page" className="btn style2">
             Book Now <i className="fas fa-arrow-up ms-2" />
-          </button>
+          </a>
         </div>
         <div className="widget-area">
           <div className="row justify-content-between">
@@ -51,34 +58,13 @@ const FooterAreaTwo = () => {
             </div>
             <div className="col-md-6 col-xl-auto">
               <div className="widget widget_nav_menu footer-widget">
-                <h3 className="widget_title">Company</h3>
-                <div className="menu-all-pages-container">
-                  <ul className="menu">
-                    <li>
-                      <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                      <Link to="/team">Team</Link>
-                    </li>
-                    <li>
-                      <Link to="/contact">Faq</Link>
-                    </li>
-                    <li>
-                      <Link to="/contact">Privacy Policy</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-auto">
-              <div className="widget widget_nav_menu footer-widget">
                 <h3 className="widget_title">Our Services</h3>
                 <div className="menu-all-pages-container">
                   <ul
                     className="menu d-flex flex-column gap-3"
                     style={{ color: "#B6B6B6" }}
                   >
-                    <li>Daily & Weekly Rides</li>
+                    <li>Monthly Rides</li>
                     <li>Affordable Pricing</li>
                     <li>Multiple Pickup & Drop-Off Locations</li>
                     <li>Safe & Comfortable Travel</li>
@@ -140,15 +126,9 @@ const FooterAreaTwo = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Fixturbo</Link> 2024 | All Rights Reserved
+                © <Link to="#">rajacarliftservice</Link> 2025 | All Rights
+                Reserved
               </p>
-            </div>
-            <div className="col-auto">
-              <div className="footer-links">
-                <Link to="/contact">Tarms &amp; Condition</Link>
-                <Link to="/contact">Privacy Policy</Link>
-                <Link to="/contact">Contact Us</Link>
-              </div>
             </div>
           </div>
         </div>

@@ -37,6 +37,11 @@
     background-size: cover !important; /* Show full image without cropping */
     padding: 0px !important;
   }
+  .hero-2 {
+    min-height: 100% !important; /* Reduce height on tablets */
+    background-size: cover !important; /* Show full image without cropping */
+    padding: 0px !important;
+  }
   .hero-style2 {
     padding: 5rem 1.25rem !important;
   }

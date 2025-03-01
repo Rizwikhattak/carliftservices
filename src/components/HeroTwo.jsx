@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HeroTwo = () => {
   return (
     <div
-      className="hero-wrapper "
+      className="hero-wrapper hero-2"
       id="hero"
       style={{ backgroundImage: "url(assets/img/hero/hero_bg_2_1.webp)" }}
     >
@@ -14,8 +14,11 @@ const HeroTwo = () => {
       <div className="container">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-xxl-6 col-xl-5 col-lg-8">
-            <div className="hero-style2 title-area text-center">
-              <span className="sub-title text-white">
+            <div className="hero-style2 text-center">
+              <span
+                className="text-white"
+                style={{ fontSize: ".625rem !important" }}
+              >
                 RELIABLE TRANSPORT SERVICE
               </span>
               <h1 className="hero-title text-white text-center">
@@ -30,8 +33,8 @@ const HeroTwo = () => {
 
               <div className="btn-group d-flex justify-content-center align-items-center">
                 <div className="call-media-wrap d-flex justify-content-center align-items-center">
-                  <div className="icon">
-                    <img src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
+                  <div className="d-flex align-items-center justify-content-center">
+                    <img src="assets/img/icon/whatsapp.svg" alt="Fixturbo" />
                   </div>
                   <div className="media-body">
                     <h4 className="link">

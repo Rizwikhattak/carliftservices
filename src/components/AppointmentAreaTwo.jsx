@@ -74,6 +74,7 @@ const BookingForm = () => {
   return (
     <div
       className="appointment-area-2 bg-smoke overflow-hidden"
+      id="contact-page"
       style={{ backgroundImage: "url(assets/img/bg/appointment-bg2-1.png)" }}
     >
       <div className="container">

@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const ProcessAreaTwo = () => {
   return (
     <div
       className="process-area-2 hero-wrapper hero-2 space-top bg-image position-relative"
       style={{ backgroundImage: "url(assets/img/bg/process2-bg.jpg)" }}
+      id="our-process-page"
     >
       {/* Overlay */}
       <div
