@@ -95,19 +95,19 @@ const HeaderTwo = () => {
             </div>
             <div className="mobile-menu">
               <ul>
-                <li>
+                <li onClick={mobileMenu}>
                   <a href="#hero">Home</a>
                 </li>
-                <li>
+                <li onClick={mobileMenu}>
                   <a href="#about-us-page">About Us</a>
                 </li>
-                <li>
+                <li onClick={mobileMenu}>
                   <a href="#our-areas-page">Our Areas</a>
                 </li>
-                <li>
+                <li onClick={mobileMenu}>
                   <a href="#our-process-page">Our Process</a>
                 </li>
-                <li>
+                <li onClick={mobileMenu}>
                   <a href="#contact-page">Contact Us</a>
                 </li>
               </ul>
